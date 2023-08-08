@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <script defer src="assets/script/main.js"></script>
+    <!-- nav bar -->
+    <nav class="nav-bar">
+    <ul class="nav-lists">
+        <li><a href="#headerContainer">Game</a></li>
+        <li><a href="#historyResult">History</a></li>
+        <li><a href="#firstSection">Mechanics</a></li>    
+    </ul>
+    </nav>
+    <!-- header game section -->
+    <section class="header-container" id="headerContainer">
+        
+    </section>
+    <div class="hero-overlay">
+        <div class="heroTitle-container">
+        <h1 class="hero-title">Can you win?</h1>
+        </div>
+        <div class="choose-container">
+        <p class="hero-choose">Choose rock, paper or scissor</p>
+        </div>
+        <div class="choices">
+            <div class="choice" id="r">
+                <button onclick="playGame('rock')" class="c1">
+                    
+                </button> 
+            </div>
+            <div class="choice" id="p">
+                <button onclick="playGame('paper')" class="c2">
+                    
+                </button>   
+            </div>
+            <div class="choice" id="s">
+                <button onclick="playGame('scissor')" class="c3">
+                    
+                </button>   
+            </div>
+        </div>
+        
+        <div class="result-container" id="resultContainer">
+        <p id="result" class="hero-result"></p>
+        </div>
+    </div>
+    <!-- history result -->
+    <div id="historyResult" class="history-result">
+
+    </div>
+    <!-- mechanics section -->
+    <section class="first-section" id="firstSection">
+        <div class="mechanics-title">
+            <h1>How to Play Rock, Paper, Scissors: A Simple Guide</h1>
+            <p>A quick walkthrough on the basics of rock, paper, scissors</p>
+        </div>
+        <div class="title-description">
+            <p>Rock, paper, scissors (also known as Rochambeau, Roshambo, or Janken) is a fun and easy hand game that anyone can learn and enjoy. It’s a great way to make minor decisions when you and a friend can’t agree on something, or even just an entertaining way to pass the time. The neat thing about the game is that almost anybody can pick the rules up in a matter of seconds. In this article, we’ll break the game down so that you and a friend can play whenever you’d like.</p>
+        </div>
+        <div class="things-container">
+            <h1>Things You Should Know</h1>
+            <ul class="things-lists">
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time.</li>
+            </ul>
+        </div>
+        <div class="rules-container">
+            <h1>Hand Signals and Rules</h1>
+            <ul class="rules-lists">
+                <li>Rock beats scissors and loses to paper.</li>
+                <li>Paper beats rock, but loses to scissors.</li>
+                <li>Scissors beat paper but loses to rock.</li>
+            </ul>
+            <h4>You can remember all of this with the phrase, rock breaks scissors, scissors cuts paper, paper covers rock.</h4>
+        </div>
+    </section>
+</body>
+</html>
+
